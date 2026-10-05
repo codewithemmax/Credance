@@ -23,7 +23,7 @@ export default function SignupPage() {
         redirectTo:
           window.location.hostname === "localhost"
             ? "http://localhost:5173/dashboard"
-            : "https://vouchsignal.vercel.app/dashboard",
+            : "https://credance.vercel.app/dashboard",
       },
     });
   };
@@ -52,7 +52,6 @@ export default function SignupPage() {
     }
     setLoading(false);
     setConfirmed(true);
-    setLoading(false);
   };
 
   return (
@@ -69,7 +68,7 @@ export default function SignupPage() {
             onClick={() => (window.location.href = "/")}
             className="font-['Bricolage_Grotesque'] font-bold text-3xl text-[#1A0A0D] mb-2 cursor-pointer inline-block"
           >
-            Vou<span className="text-[#A84551]">ch</span>
+            Credance
           </div>
           <p className="font-['Inter'] text-sm text-[#8A6B70]">
             Build your financial identity — one transaction at a time

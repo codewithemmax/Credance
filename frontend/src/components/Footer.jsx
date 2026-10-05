@@ -32,7 +32,7 @@ export default function Footer() {
               onClick={() => (window.location.href = "/")}
               className="font-['Bricolage_Grotesque'] font-bold text-xl text-white mb-4 cursor-pointer inline-block"
             >
-              Vou<span className="text-[#A84551]">ch</span>
+              Credance
             </div>
             <p className="font-['Inter'] text-sm text-white/40 leading-relaxed">
               Trust infrastructure for Nigeria's informal economy. Built on
@@ -51,7 +51,7 @@ export default function Footer() {
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
-                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-.96-.825-.015-.84.885-.015 1.515.81 1.725 1.14.99 1.665 2.58 1.195 3.21.905.09-.705.375-1.195.675-1.47-2.375-.255-4.88-1.185-4.88-5.255 0-1.17.42-2.13 1.11-2.88-.12-.27-.48-1.38.12-2.86 0 0 .9-.285 2.97 1.11a10.34 10.34 0 0 1 5.4 0c2.07-1.395 2.97-1.11 2.97-1.11.6 1.48.24 2.59.12 2.86.69.75 1.11 1.71 1.11 2.88 0 4.08-2.52 4.995-4.905 5.25.39.345.735 1.02.735 2.07 0 1.5-.015 2.7-.015 3.075 0 .315.225.675.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12Z"/>
                 </svg>
                 GitHub
               </a>
@@ -81,7 +81,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="font-['Inter'] text-xs text-white/30">© 2026 Vouch.</p>
+          <p className="font-['Inter'] text-xs text-white/30">© 2026 Credance.</p>
           <p className="font-['Inter'] text-xs text-white/30">
             Powered by Squad · GTCo · HabariPay
           </p>

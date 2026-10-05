@@ -18,7 +18,7 @@ export default function LoginPage() {
         redirectTo:
           window.location.hostname === "localhost"
             ? "http://localhost:5173/dashboard"
-            : "https://vouchsignal.vercel.app/dashboard",
+            : "https://credance.vercel.app/dashboard",
       },
     });
   };
@@ -91,7 +91,7 @@ export default function LoginPage() {
           className="text-center mb-5 mt-5"
         >
           <div className="font-['Bricolage_Grotesque'] font-bold text-3xl text-[#1A0A0D] mb-2">
-            Vou<span className="text-[#A84551]">ch</span>
+            Credance
           </div>
           <p className="font-['Inter'] text-sm text-[#8A6B70]">
             Trust infrastructure for Nigeria's informal economy
@@ -108,7 +108,7 @@ export default function LoginPage() {
             Welcome back
           </h1>
           <p className="font-['Inter'] text-sm text-[#8A6B70] mb-8">
-            Sign in to your Vouch account
+            Sign in to your Credance account
           </p>
 
           {error && (

@@ -25,7 +25,7 @@ export default function Nav() {
         onClick={() => (window.location.href = "/")}
         className="font-['Syne'] font-bold text-3xl text-[#1A0A0D] tracking-tight cursor-pointer"
       >
-        Vou<span className="text-[#A84551]">ch</span>
+        Credance
       </div>
 
       <ul className="hidden md:flex items-center gap-10 list-none m-0 p-0">

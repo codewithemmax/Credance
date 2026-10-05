@@ -1,14 +1,15 @@
 # Credance
+
 > Trust infrastructure for Nigeria's informal economy. Built on Squad.
 
-**Live Demo:** [vouchsignal.vercel.app](https://vouchsignal.vercel.app)  
+**Live Demo:** [credance.vercel.app](https://credance.vercel.app)  
 **Built for:** Squad Hackathon 3.0 — Challenge 02: The Intelligent Economy
 
 ---
 
 ## The Problem
 
-40 million Nigerian informal traders are economically active but financially invisible. Mama Ngozi has sold fabric in Balogun Market for 15 years. The bank still says no — not because she isn't creditworthy, but because she has no paper trail they recognize.
+40 million Nigerian informal traders are economically active but financially invisible. Mama Ngozi has sold fabric in Balogun Market for 15 years. The bank still says no — not because she isn't creditworthy, but because she exists outside the formal financial system.
 
 Traditional credit systems require tax documents, collateral, and formal bank history. The informal economy runs on trust, consistency, and community — none of which existing systems can measure.
 
@@ -16,9 +17,9 @@ Traditional credit systems require tax documents, collateral, and formal bank hi
 
 ## The Solution
 
-Vouch turns every Squad transaction into a financial identity.
+Credance turns every Squad transaction into a financial identity.
 
-Every payment a trader receives, every repeat customer who comes back, every consistent day of sales — all of it becomes data that feeds the **Market Reputation Score** (0–1,000). When the score crosses thresholds, financial products unlock automatically. No applications. No paperwork. No loan officers.
+Every payment a trader receives, every repeat customer who comes back, every consistent day of sales — all of it becomes data that feeds the **Market Reputation Score** (0–1,000). When the score crosses 400, credit unlocks.
 
 ---
 
@@ -26,12 +27,12 @@ Every payment a trader receives, every repeat customer who comes back, every con
 
 1. **Onboard** — Register with your phone number. A Squad Virtual Account is created instantly as your permanent digital financial identity.
 2. **Transact** — Customers pay you through Squad. Every payment, every recurring customer, every on-time supplier payment becomes a trust signal.
-3. **Score Builds** — The Vouch Engine analyses your transaction patterns in real time, generating your Market Reputation Score — updated with every payment.
+3. **Score Builds** — The Credance Engine analyses your transaction patterns in real time, generating your Market Reputation Score — updated with every payment.
 4. **Access Unlocks** — Cross the threshold and financial products unlock automatically. Microloans, inventory credit, insurance — powered by your Squad history.
 
 ---
 
-## The Vouch Engine
+## The Credance Engine
 
 The scoring algorithm operates on a **30-Day Rolling Window** across four variables:
 
@@ -62,7 +63,7 @@ The scoring algorithm operates on a **30-Day Rolling Window** across four variab
 
 ## Squad API Integration
 
-Vouch is built entirely on Squad's infrastructure — not as an add-on, but as the foundation.
+Credance is built entirely on Squad's infrastructure — not as an add-on, but as the foundation.
 
 | API | Role |
 |-----|------|
@@ -70,7 +71,7 @@ Vouch is built entirely on Squad's infrastructure — not as an add-on, but as t
 | **Webhooks API** | Every incoming payment fires a webhook that recalculates the score in real time |
 | **Transfers API** | Disburses approved microloans instantly to the trader's Virtual Account |
 
-> "Why Squad Virtual Accounts instead of personal bank accounts? Mixing personal rent money with business revenue corrupts the data. A dedicated Squad Virtual Account isolates pure business cash flow — giving the engine 100% clean data to underwrite credit risk."
+> "Why Squad Virtual Accounts instead of personal bank accounts? Mixing personal rent money with business revenue corrupts the data. A dedicated Squad Virtual Account isolates pure business cash flow, making the score trustworthy."
 
 ---
 
@@ -175,7 +176,7 @@ SQUAD_BASE_URL=https://sandbox-api-d.squadco.com
 
 ## Demo
 
-1. Visit [vouchsignal.vercel.app](https://vouchsignal.vercel.app)
+1. Visit [credance.vercel.app](https://credance.vercel.app)
 2. Click **Get Started** → **Log in as Mama Ngozi (Demo)**
 3. Press **Shift+S** to simulate Squad payments
 4. Watch the score climb in real time
@@ -218,4 +219,4 @@ SQUAD_BASE_URL=https://sandbox-api-d.squadco.com
 
 ---
 
-*© 2026 VouchSignal. Built for Squad Hackathon 3.0.*
+*© 2026 Credance. Built for Squad Hackathon 3.0.*
