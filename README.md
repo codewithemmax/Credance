@@ -1,5 +1,4 @@
-# Vouch
-
+# Credance
 > Trust infrastructure for Nigeria's informal economy. Built on Squad.
 
 **Live Demo:** [vouchsignal.vercel.app](https://vouchsignal.vercel.app)  
